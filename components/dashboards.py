@@ -76,7 +76,7 @@ def plot_boxplots() -> object:
             valor_minimo = literacia_suf.values.min()
 
             fig.add_vline(x=valor_minimo,
-                          line_dash="dash",
+                          line_dash="dash", opacity=0.4,
                           row=row+1, col=col+1)
 
             coluna += 1
@@ -236,9 +236,11 @@ def predicoes_boxplot(n: int,
 
         # retorna valor para o card
         if cat_literacy == 0:
-            return [f'Preferível Recusar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
+            return [f'Preferível Recusar]
+            #return [f'Preferível Recusar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
         else:
-            return [f'Preferível Aceitar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
+            return [f'Preferível Aceitar]
+            #return [f'Preferível Aceitar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
     else:
         raise PreventUpdate
 
