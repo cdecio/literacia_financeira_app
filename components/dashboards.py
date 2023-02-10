@@ -236,9 +236,9 @@ def predicoes_boxplot(n: int,
 
         # retorna valor para o card
         if cat_literacy == 0:
-            return [f'Preferível Recusar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
+            return [f'Preferível Recusar', x.to_dict()]
         else:
-            return [f'Preferível Aceitar - Confiança {round(prob_literacy * 100, 2)} %', x.to_dict()]
+            return [f'Preferível Aceitar', x.to_dict()]
     else:
         raise PreventUpdate
 
