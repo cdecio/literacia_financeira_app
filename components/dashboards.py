@@ -253,7 +253,7 @@ def update_boxplots(x: dict) -> object:
 
     # construir a figura
     fig = make_subplots(rows=N_ROW, cols=N_COLS,
-                        subplot_titles=colunas_boxplot)
+                        subplot_titles=titulos_boxplot)
 
     print(x)
 
