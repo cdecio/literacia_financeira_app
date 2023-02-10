@@ -46,11 +46,11 @@ isei.get('ISEI ').pop(298)
 
 # lista dos nomes das variáveis
 titulos_validacao = [
-    'Grau Acadêmico do Pai',
-    'Grau Acadêmico da Mãe',
+    'Grau Académico do Pai',
+    'Grau Académico da Mãe',
     'Emprego do Pai',
     'Emprego da Mãe',
-    'Expectativa Acadêmica do Cliente',
+    'Expectativa Académica do Cliente',
     'Expectativa Profissional do Cliente'
 ]
 
