@@ -21,7 +21,7 @@ colunas_boxplot = ["GRADE", "MISCED", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
                    "sisced", "COGFLEX", "FLFAMILY", "METASPAM"]
 
 # lista com o título das colunas para boxplot
-colunas_boxplot = ["GRADE2", "MISCED2", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
+titulos_boxplot = ["GRADE2", "MISCED2", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
                    "sisced", "COGFLEX2", "FLFAMILY", "METASPAM"]
 
 # literacia suficiente
