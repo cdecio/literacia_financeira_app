@@ -20,6 +20,10 @@ boxplot_data = pd.read_csv(os.path.join(DATA_PATH, BOXPLOT_DATA),index_col=[0])
 colunas_boxplot = ["GRADE", "MISCED", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
                    "sisced", "COGFLEX", "FLFAMILY", "METASPAM"]
 
+# lista com o título das colunas para boxplot
+colunas_boxplot = ["GRADE2", "MISCED2", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
+                   "sisced", "COGFLEX2", "FLFAMILY", "METASPAM"]
+
 # literacia suficiente
 SUF_LITERACIA = 475 
 
