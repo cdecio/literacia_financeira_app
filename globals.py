@@ -21,8 +21,8 @@ colunas_boxplot = ["GRADE", "MISCED", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
                    "sisced", "COGFLEX", "FLFAMILY", "METASPAM"]
 
 # lista com o título das colunas para boxplot
-titulos_boxplot = ["GRADE2", "MISCED2", "FISCED", "BMMJ1", "BFMJ2", "BSMJ",
-                   "sisced", "COGFLEX2", "FLFAMILY", "METASPAM"]
+titulos_boxplot = ["Escolaridade Cliente", "Escolaridade Mãe", "Escolaridade Pai", "Emprego Mãe", "Emprego Pai", "Emprego que cliente pretende",
+                   "Espetativa académica cliente", "Flexibilidade Cognitiva", "Discussão financeira em casa", "Metacognição SPAM"]
 
 # literacia suficiente
 SUF_LITERACIA = 475 
