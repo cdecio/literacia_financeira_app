@@ -15,11 +15,11 @@ layout = dbc.Col([
     html.Hr(),
     dbc.Row([
         dbc.Col([
-            html.H4('Grau Acadêmico do Pai'),
+            html.H4('Grau Académico do Pai'),
             dcc.Dropdown(list(isced.get('degree_level').values()), id='academia-pai')
         ], width=6),
         dbc.Col([
-            html.H4('Grau Acadêmico da Mãe'),
+            html.H4('Grau Académico da Mãe'),
             dcc.Dropdown(list(isced.get('degree_level').values()), id='academia-mae')
         ], width=6)
     ]),
@@ -37,7 +37,7 @@ layout = dbc.Col([
     html.Br(),
     dbc.Row([
         dbc.Col([
-            html.H4('Expectativa Acadêmica do Cliente'),
+            html.H4('Expectativa Académica do Cliente'),
             dcc.Dropdown(list(isced.get('degree_level').values()), id='academia-cliente')
         ], width=6),
         dbc.Col([
